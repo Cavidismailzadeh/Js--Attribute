@@ -1,0 +1,43 @@
+
+.hide-model{
+    transform: translateY(-1000px);
+}
+
+.model{
+    background-color: blueviolet;
+    margin-top: 100px;
+    margin-left: 30%;
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+    transition: all 1s;
+}
+
+.model img{
+    width: 100%;
+    height: 100%;
+}
+
+.model p{
+    position: absolute;
+    font-size: 40px;
+    top: 0;
+    left: 155px;
+    color: magenta;
+}
+
+.open-btn{
+
+    margin-top: 35px;
+}
+
+.close-icon{
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    font-size: 40px;
+    color: cyan;;
+    z-index: 1;
+    cursor: pointer;
+}
